@@ -30,7 +30,7 @@ app.get('/category/:id', (req, res) => {
 app.get('/news', (req, res) =>{
     res.send(news);
 });
-
+//fsdgdfgsdfgfsd
 app.get('/news/:id', (req, res) => {
     const id = req.params.id;
     const selectedNews = news.find(n => n._id === id);
